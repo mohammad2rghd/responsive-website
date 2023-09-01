@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>responsive website with html,css and javascript</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- carosel5section -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!--modal-ima-carsousel  -->
+    <div class="modal-wrapper">
+      <i class="fa fa-times"></i>
+      <div class="modal-carousel">
+        <div dir="rtl" class="swiper mySwiper3">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide modal-carousel-img-box">
+              <img src="images/workpic1.jpg" alt="" />
+            </div>
+            <div class="swiper-slide modal-carousel-img-box">
+              <img src="images/workpic2.jpg" alt="" />
+            </div>
+            <div class="swiper-slide modal-carousel-img-box">
+              <img src="images/workpic3.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-button-next modal-btns"></div>
+          <div class="swiper-button-prev modal-btns"></div>
+          <div class="swiper-pagination modal-btns"></div>
+        </div>
+      </div>
+    </div>
+    <!-- modal-ima-carsousel -->
+    <!-- fixed-boxes-icons -->
+    <a class="top-link-box" href="#home"><i class="fa fa-angle-up"></i></a>
+    <!-- NAV-wrapper -->
+    <div class="nav-wrapper">
+      <!-- nav -->
+      <nav class="nav">
+        <!-- logo -->
+        <div class="logo">
+          <img src="images/avada-construction.svg" alt="" />
+        </div>
+        <!-- hamburger-icon  -->
+        <div class="hamburger-icon">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <!-- nav-menu -->
+        <ul class="menu">
+          <li><a href="#home">home</a></li>
+          <li><a href="">about</a></li>
+          <li><a href="">services</a></li>
+          <!-- sub-menu-in-work-section -->
+          <li>
+            <a href="">work</a>
+            <ul class="sub-menu1">
+              <li><a href="">florida health facility</a></li>
+              <li><a href="">maine modernity</a></li>
+              <li><a href="">exclusive urban living</a></li>
+              <li><a href="">blue concrete house</a></li>
+            </ul>
+          </li>
+          <li><a href="">article</a></li>
+          <li>
+            <a href=""><span>get quote</span></a>
+          </li>
+        </ul>
+        <!-- responsive-menu -->
+        <ul class="menuInResponsive">
+          <li><a href="#home">home</a></li>
+          <li><a href="">about</a></li>
+          <li><a href="">services</a></li>
+          <!-- sub-menu-in-work-section-in-responsive-->
+          <li>
+            <a href="">work</a>
+          </li>
+          <li><a href="">article</a></li>
+          <li>
+            <a href=""><span>get quote</span></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- HEADER -->
+    <header id="home" class="header">
+      <div class="container">
+        <h1>BUILDING INSPIRING SPACES</h1>
+        <p>We Build Inspiring Residential & Commercial Spaces</p>
+        <div class="box-header-btn">
+          <a class="header-btn btn1" href="">explore recent work</a>
+          <a class="header-btn btn2" href="">get a quote today</a>
+        </div>
+      </div>
+    </header>
+    <!-- SUGGESTION -->
+    <div class="suggestion">
+      <p>Do You Have A Construction Project We Can Help With?</p>
+      <a href="">get a free quote</a>
+    </div>
+    <!-- specialists -->
+    <div class="specialists">
+      <div class="container">
+        <div class="spe-content">
+          <h2>Specialists In Modern Construction</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+            sequi quos. Distinctio, deleniti expedita, minima fugit similique,
+            dicta molestias vero nam accusantium rem natus dolorum dignissimos
+            ut assumenda odio blanditiis.
+          </p>
+        </div>
+      </div>
+      <div class="spe-flip-wrapper">
+        <div class="spe-flip-box">
+          <div class="spe-flip-back">
+            <h3>ARTFULLY CRAFTED</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+              optio tempore suscipit similique quia minima!
+            </p>
+            <a href="">get a quote</a>
+          </div>
+          <div class="spe-flip-front">
+            <div class="icon-box">
+              <i class="fa fa-building"></i>
+            </div>
+            <h3>buldings</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni
+            </p>
+          </div>
+        </div>
+        <div class="spe-flip-box">
+          <div class="spe-flip-back">
+            <h3>ARTFULLY CRAFTED</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+              optio tempore suscipit similique quia minima!
+            </p>
+            <a href="">get a quote</a>
+          </div>
+          <div class="spe-flip-front">
+            <div class="icon-box">
+              <i class="fa fa-building"></i>
+            </div>
+            <h3>renovate</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni
+            </p>
+          </div>
+        </div>
+        <div class="spe-flip-box">
+          <div class="spe-flip-back">
+            <h3>ARTFULLY CRAFTED</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+              optio tempore suscipit similique quia minima!
+            </p>
+            <a href="">get a quote</a>
+          </div>
+          <div class="spe-flip-front">
+            <div class="icon-box">
+              <i class="fa fa-building"></i>
+            </div>
+            <h3>construct</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni
+            </p>
+          </div>
+        </div>
+        <div class="spe-flip-box">
+          <div class="spe-flip-back">
+            <h3>ARTFULLY CRAFTED</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+              optio tempore suscipit similique quia minima!
+            </p>
+            <a href="">get a quote</a>
+          </div>
+          <div class="spe-flip-front">
+            <div class="icon-box">
+              <i class="fa fa-building"></i>
+            </div>
+            <h3>exclusive</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- counter-wrapper -->
+    <div class="counter-wrapper">
+      <div class="counter-box counter-box1">
+        <i class="fa fa-suitcase"></i>
+        <p id="counter1">0</p>
+        <p>PLANNING APPLICATIONS</p>
+      </div>
+      <div class="counter-box counter-box2">
+        <i class="fa fa-building"></i>
+        <p id="counter2">0</p>
+        <p>COMPLETED PROJECTS</p>
+      </div>
+      <div class="counter-box counter-box3">
+        <i class="fa fa-house-damage"></i>
+        <p id="counter3">0</p>
+        <p>TRAINED PROFESSIONALS</p>
+      </div>
+      <div class="counter-box counter-box4">
+        <i class="fa fa-hotel"></i>
+        <p id="counter4">0</p>
+        <p>INTERNATIONAL OFFICES</p>
+      </div>
+    </div>
+    <!-- explore-recent-work -->
+    <div class="container">
+      <div class="spe-content">
+        <h2>Explore Recent Work</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi
+          quos. Distinctio, deleniti expedita, minima fugit similique, dicta
+          molestias vero nam accusantium rem natus dolorum dignissimos ut
+          assumenda odio blanditiis.
+        </p>
+      </div>
+    </div>
+    <!-- sample-projects -->
+    <div class="sample-works">
+      <div class="sample-works-box box1">
+        <div class="curtain">
+          <div class="icon-box">
+            <i class="fa fa-link"></i
+            ><i class="fa fa-search modal-opener-btn"></i>
+          </div>
+          <h5>florida health faciliti</h5>
+          <p>commercial</p>
+        </div>
+      </div>
+      <div class="sample-works-box box2">
+        <div class="curtain">
+          <div class="icon-box">
+            <i class="fa fa-link"></i
+            ><i class="fa fa-search modal-opener-btn"></i>
+          </div>
+          <h5>florida health faciliti</h5>
+          <p>commercial</p>
+        </div>
+      </div>
+      <div class="sample-works-box box3">
+        <div class="curtain">
+          <div class="icon-box">
+            <i class="fa fa-link"></i
+            ><i class="fa fa-search modal-opener-btn"></i>
+          </div>
+          <h5>florida health faciliti</h5>
+          <p>commercial</p>
+        </div>
+      </div>
+    </div>
+    <!-- line-view-projects -->
+    <div class="line-view-projects">
+      <a href="">view all projects</a>
+    </div>
+    <!-- our-core-value -->
+    <div class="core-value-wrapper">
+      <div class="container">
+        <div class="spe-content">
+          <h2>Our Core Values</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+            sequi quos. Distinctio, deleniti expedita, minima fugit similique,
+            dicta molestias vero nam accusantium rem natus dolorum dignissimos
+            ut assumenda odio blanditiis.
+          </p>
+        </div>
+        <div class="box-container">
+          <div class="core-value-box">
+            <div class="core-value-box-top">
+              <i class="fa fa-house core-icon1 core-icons"></i>
+              <p>Great Services</p>
+            </div>
+            <div class="core-value-box-bottom">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Veritatis voluptatibus fuga molestias dolorum commodi
+                perferendis
+              </p>
+            </div>
+          </div>
+          <div class="core-value-box">
+            <div class="core-value-box-top">
+              <i class="fa fa-gear core-icon2 core-icons"></i>
+              <p>Highest Standards</p>
+            </div>
+            <div class="core-value-box-bottom">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Veritatis voluptatibus fuga molestias dolorum commodi
+                perferendis
+              </p>
+            </div>
+          </div>
+          <div class="core-value-box">
+            <div class="core-value-box-top">
+              <i class="fa fa-glass-martini core-icon3 core-icons"></i>
+              <p>Professional Team</p>
+            </div>
+            <div class="core-value-box-bottom">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Veritatis voluptatibus fuga molestias dolorum commodi
+                perferendis
+              </p>
+            </div>
+          </div>
+          <div class="core-value-box">
+            <div class="core-value-box-top">
+              <i class="fa fa-hand-peace core-icon4 core-icons"></i>
+              <p>Creative Solutions</p>
+            </div>
+            <div class="core-value-box-bottom">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Veritatis voluptatibus fuga molestias dolorum commodi
+                perferendis
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- comments -->
+    <div class="comments-wrapper">
+      <div class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide comment-container">
+            <div class="comment comment1">
+              <h2>Our Home Owners Say</h2>
+              <div class="commentImgBox">
+                <img src="images/womancomment.jpg" alt="" />
+              </div>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis corrupti libero eum libero nisi expedita illum, fugit
+                vel obcaecati eius nobis aut neque eveniet perferendis sed
+                pariatur libero ullam at?
+              </p>
+              <h4>HARRY SMITH • NEW HOME OWNER</h4>
+            </div>
+          </div>
+          <div class="swiper-slide comment-container">
+            <div class="comment comment2">
+              <h2>Our Home Owners Say</h2>
+              <div class="commentImgBox">
+                <img src="images/mancomment.webp" alt="" />
+              </div>
+              <p>
+                nobis, ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis corrupti libero eum dolorem nisi expedita illum,
+                fugit vel obcaecati eius nobis aut neque eveniet libero sed
+                pariatur architecto ullam at?
+              </p>
+              <h4>JOHN DOE • PROPERTY INVESTOR</h4>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <!-- latest-news -->
+    <div class="latest-news-wrapper">
+      <div class="container">
+        <div class="spe-content">
+          <h2>Latest News</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+            sequi quos. Distinctio, deleniti expedita, minima fugit similique,
+            dicta molestias vero nam accusantium rem natus dolorum dignissimos
+            ut assumenda odio blanditiis.
+          </p>
+        </div>
+        <div class="latest-news-inner">
+          <div class="news-col lncol1">
+            <div class="news-col-top">
+              <div class="news-col-top-curtain">
+                <div class="news-col-icon-box">
+                  <i class="fa fa-link"></i
+                  ><i class="fa fa-search modal-opener-btn"></i>
+                </div>
+                <h5>Redeveloping Florida’s Remote Southern Coast</h5>
+                <p>December 7th, 2015</p>
+              </div>
+            </div>
+            <div class="news-col-bottom">
+              <h2>Redeveloping Florida’s Remote Southern Coast</h2>
+              <time>December 7th, 2015</time>
+              <p>
+                Technology is Here to Stay Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Vivamus purus nisl, elementum vitae
+                consequat at, tristique ut enim. Sed ut dignissim leo. Nullam
+                sed metus id sapien faucibus rhoncus sed
+              </p>
+            </div>
+          </div>
+          <div class="news-col lncol2">
+            <div class="news-col-top">
+              <div class="news-col-top-curtain">
+                <div class="news-col-icon-box">
+                  <i class="fa fa-link"></i
+                  ><i class="fa fa-search modal-opener-btn"></i>
+                </div>
+                <h5>How We Manage Large Construction Projects</h5>
+                <p>December 7th, 2015</p>
+              </div>
+            </div>
+            <div class="news-col-bottom">
+              <h2>How We Manage Large Construction Projects</h2>
+              <time>December 7th, 2015</time>
+              <p>
+                Technology is Here to Stay Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Vivamus purus nisl, elementum vitae
+                consequat at, tristique ut enim. Sed ut dignissim leo. Nullam
+                sed metus id sapien faucibus rhoncus sed
+              </p>
+            </div>
+          </div>
+          <div class="news-col lncol3">
+            <div class="news-col-top">
+              <div class="news-col-top-curtain">
+                <div class="news-col-icon-box">
+                  <i class="fa fa-link"></i
+                  ><i class="fa fa-search modal-opener-btn"></i>
+                </div>
+                <h5>Future proofing a modern home</h5>
+                <p>December 7th, 2015</p>
+              </div>
+            </div>
+            <div class="news-col-bottom">
+              <h2>Future proofing a modern home</h2>
+              <time>December 7th, 2015</time>
+              <p>
+                Technology is Here to Stay Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Vivamus purus nisl, elementum vitae
+                consequat at, tristique ut enim. Sed ut dignissim leo. Nullam
+                sed metus id sapien faucibus rhoncus sed
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- line-view-articles -->
+    <div class="line-view-projects">
+      <a href="">view all articles</a>
+    </div>
+    <!-- partners -->
+
+    <div class="container">
+      <div class="spe-content">
+        <h2>Trusted Partners</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi
+          quos. Distinctio, deleniti expedita, minima fugit similique, dicta
+          molestias vero nam accusantium rem natus dolorum dignissimos ut
+          assumenda odio blanditiis.
+        </p>
+      </div>
+      <!-- carosel1......................................... -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/partner1.webp" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/partner2.webp" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/partner3.webp" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/partner4.webp" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/partner5.webp" alt="" />
+          </div>
+        </div>
+        <!-- <div class="swiper-pagination"></div> -->
+      </div>
+    </div>
+    <!-- inspiring-spaces -->
+    <div class="inspiring-spaces-wrapper">
+      <div class="inspiring-spaces-inner">
+        <div class="inspirin-spaces-left">
+          <h4>BUILDING INSPIRING SPACES</h4>
+          <p>
+            Vivamus Sed Consectetur Tellus Dolor Sit Amet, Consectetur
+            Adipiscing Lorem Elit Sadip Ipsum Ets Ficilis Uns.
+          </p>
+        </div>
+        <div class="inspirin-spaces-right">
+          <a href="">get a free quote</a>
+          <p>Only takes a few seconds!</p>
+        </div>
+      </div>
+    </div>
+    <!-- footer-top -->
+    <div class="footer-top-wrapper">
+      <div class="footer-top-col footer-col1">
+        <div class="footer-logo-box">
+          <img src="images/footer-logo.webp" alt="" />
+        </div>
+        <p>
+          We are specialists in the construction of unique and exclusive
+          properties. Our work inspires. We pride ourselves on delivering
+          outstanding quality and design for leading clients across the world.
+        </p>
+        <a href="">learn more</a>
+      </div>
+      <div class="footer-top-col footer-col2">
+        <h3>LATEST TWEETS</h3>
+        <a href="">Tweets by Theme_Fusion</a>
+      </div>
+      <div class="footer-top-col footer-col3">
+        <h3>CONTACT US TODAY</h3>
+        <div class="footer-col3-box">
+          <i class="fa fa-globe"></i>
+          <p>Corporate Location 1600 Amphitheatre Parkway London WC1 1BA</p>
+        </div>
+        <div class="footer-col3-box">
+          <i class="fa fa-home"></i>
+          <p>Residential Location 9521 Broadsberry Avenue Paddington RC7 9ZA</p>
+        </div>
+        <div class="footer-col3-box">
+          <i class="fa fa-phone"></i>
+          <p>1.800.458.556 / 1.800.532.2112</p>
+        </div>
+        <div class="footer-col3-box">
+          <i class="fa fa-phone"></i>
+          <p>info@your-domain.com</p>
+        </div>
+        <div class="footer-col3-box">
+          <i class="fa fa-clock"></i>
+          <p>Monday – Friday: 9:00 AM – 6:00 PM</p>
+        </div>
+      </div>
+      <div class="footer-top-col footer-col4">
+        <h3>OUR LOCATION</h3>
+        <div class="map-img-box"><img src="images/location.jpg" alt="" /></div>
+      </div>
+    </div>
+    <!-- fotter-bottom -->
+    <div class="footer-bottom-wrapper">
+      <p>
+        ©COPYRIGHT 2012 - 2022 | AVADA THEME BY <a href="">THEMEFUSION</a> | ALL
+        RIGHTS RESERVED | POWERED BY <a href="">WORDPRESS</a>
+      </p>
+      <div class="icon-footer-bottom-box">
+        <div class="icon-fbox">
+          <a href=""><i class="fab fa-facebook"></i></a>
+          <div class="guide-icon-box">facebook</div>
+        </div>
+        <div class="icon-fbox">
+          <a href=""><i class="fab fa-twitter"></i></a>
+          <div class="guide-icon-box">twitter</div>
+        </div>
+        <div class="icon-fbox">
+          <a href=""><i class="fab fa-youtube"></i></a>
+          <div class="guide-icon-box">youtube</div>
+        </div>
+        <div class="icon-fbox">
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <div class="guide-icon-box">instagram</div>
+        </div>
+      </div>
+    </div>
+    <!-- scripts -->
+    <script src="scripts/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+  </body>
+</html>
